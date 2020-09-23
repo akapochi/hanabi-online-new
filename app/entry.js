@@ -102,7 +102,7 @@ function drawHanabi(hanabiObj, gameObj, otherHanabiArray, compressedOtherHanabiD
     moveHinokos();
   }, 33);
 
-  compressedOtherHanabiData = {}; // データを初期化したい！
+  // compressedOtherHanabiData = {}; // データを初期化したい！
 }
 
 // 花火が打たれたことをサーバーに送信する関数
