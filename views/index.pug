@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 みんなで花火
+  if user
+    h4 以下のアカウントで参加できます。
+    h2 #{user.displayName}　
+      img(src=`${user.photos[0].value}`)
+    h2
+      a(href='hanabi') #{user.displayName} で参加
+    h3
+      a(href='logout') ログアウト
+  else
+    h3
+      a(href='login/twitter') Twitter でログイン
+    h3
+      a(href='hanabi') 匿名で参加

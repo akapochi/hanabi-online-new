@@ -1,0 +1,10 @@
+{
+  "name": "online-Hanabi",
+  "description": "Hanabi!!!",
+  "repository": "https://github.com/akapochi/hanabi-online",
+  "logo": "",
+  "keywords": [
+    "node"
+  ],
+  "image": "heroku/nodejs"
+}

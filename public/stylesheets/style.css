@@ -1,0 +1,62 @@
+.background{
+  background-color: #191970;
+  width: auto;
+  height: 80vh;
+}
+
+.menu{
+  background-color: #800000;
+  width: auto;
+  height: 16vh;
+  max-height: 100px;
+}
+
+.btn-red{
+  background-color: #ff0000;
+  width: 20%;
+  height: 100%;
+  float: left;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 200%;
+}
+
+.btn-blue{
+  background-color: #00ffff;
+  width: 20%;
+  height: 100%;
+  float: left;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 200%;
+}
+
+.btn-green{
+  background-color: #008000;
+  width: 20%;
+  height: 100%;
+  float: left;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 200%;
+}
+
+.btn-yellow{
+  background-color: #ffff00;
+  width: 20%;
+  height: 100%;
+  float: left;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 200%;
+}
+
+.btn-random{
+  background: linear-gradient(to right, #ff0000 25%, #00ffff 25%, #00ffff 50%, #008000 50%, #008000 75%, #ffff00 75%);
+  width: 20%;
+  height: 100%;
+  float: left;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 150%;
+}
